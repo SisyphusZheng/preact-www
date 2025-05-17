@@ -1,5 +1,5 @@
 ---
-title: 了解 Preact
+title: Learn Preact
 next: /tutorial/01-vdom
 code: false
 solvable: false

@@ -1,6 +1,6 @@
 ---
-title: API 参考
-description: '了解 Preact 模块导出的所有函数'
+title: API Reference
+description: 'Learn more about all exported functions of the Preact module'
 ---
 
 # API 参考

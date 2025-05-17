@@ -1,6 +1,6 @@
 ---
-title: 引用
-description: '引用可用于访问 Preact 渲染的 DOM 节点'
+title: References
+description: 'Refs are a way of creating stable values that are local to a component instance and persist across renders.'
 ---
 
 # 引用

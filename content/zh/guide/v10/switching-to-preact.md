@@ -1,6 +1,6 @@
 ---
-title: 从 React 迁移到 Preact 
-description: '从 React 迁移到 Preact 时必要的说明。'
+title: Switching to Preact from React
+description: 'Everything you need to know to switch from React to Preact.'
 ---
 
 # 从 React 切换到 Preact

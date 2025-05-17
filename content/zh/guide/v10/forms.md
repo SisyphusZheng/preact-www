@@ -1,6 +1,6 @@
 ---
-title: 表单
-description: '如何在 Preact 中构建随地可用的表单。'
+title: Forms
+description: 'Forms and form controls allow you to collect user input in your application and is a fundamental building block of most web applications.'
 ---
 
 # 表单

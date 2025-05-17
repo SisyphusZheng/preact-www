@@ -1,11 +1,9 @@
 ---
-title: 介绍 Signals
+title: Introducing Signals
 date: 2022-09-06
 authors:
   - Marvin Hagemeister
   - Jason Miller
-translation_by:
-  - Louis Tsang (Adjusted based on ChatGPT translation)
 ---
 
 # 介绍 Signals

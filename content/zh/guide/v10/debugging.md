@@ -1,6 +1,6 @@
 ---
-title: 调试 Preact 应用
-description: '如何调试 Preact 应用。'
+title: Debugging Preact Apps
+description: 'How to debug Preact applications when something goes wrong.'
 ---
 
 # 调试 Preact 应用

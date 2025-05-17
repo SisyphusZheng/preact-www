@@ -1,6 +1,6 @@
 ---
-title: 钩子
-description: 'Preact 中的钩子可让你组合行为和在不同组件中重用逻辑。'
+title: Hooks
+description: 'Hooks in Preact allow you to compose behaviours together and re-use that logic in different components.'
 ---
 
 # 钩子

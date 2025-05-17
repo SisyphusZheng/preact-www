@@ -1,6 +1,6 @@
 ---
-title: 上下文
-description: '上下文可让您通过中间组件传递属性。此文档同时提供新版本和老版本 API 的使用方法。'
+title: Context
+description: 'Context allows you to pass props through intermediate components. This documents describes both the new and the old API'
 ---
 
 # 上下文

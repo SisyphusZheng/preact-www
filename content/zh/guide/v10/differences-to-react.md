@@ -1,6 +1,6 @@
 ---
-title: 与 React 的差别
-description: '本文详细说明了 Preact 和 React 之间的差别'
+title: Differences to React
+description: 'What are the differences between Preact and React. This document describes them in detail'
 ---
 
 # 与 React 的差别

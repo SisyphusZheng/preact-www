@@ -1,6 +1,6 @@
 ---
-title: 开始上手
-description: "如何上手 Preact？我们会在此教程中详解如何安装工具和编写应用。"
+title: Getting Started
+description: "How to get started with Preact. We'll learn how to setup the tooling (if any) and get going with writing an application."
 ---
 
 # 开始上手

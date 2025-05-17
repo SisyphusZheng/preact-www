@@ -1,6 +1,6 @@
 ---
-title: 组件
-description: '组件是所有 Preact 应用的核心，了解学习如何构建并组合使用它打造来界面。'
+title: Components
+description: 'Components are the heart of any Preact application. Learn how to create them and use them to compose UIs together'
 ---
 
 # 组件

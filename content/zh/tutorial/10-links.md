@@ -1,26 +1,26 @@
 ---
-title: 恭喜您！
+title: Congratulations!
 prev: /tutorial/09-error-handling
 solvable: false
 ---
 
-# 恭喜您！
+# 恭喜！
 
-您完成了 Preact 教程！
+你已经完成了Preact教程！
 
-我们欢迎您继续捣鼓捣鼓示例代码。
+可以随意继续玩一下这个演示代码。
 
 ### 下一步
 
-- [深入了解类组件](/guide/v10/components)
-- [深入了解钩子](/guide/v10/hooks)
-- [创建您的项目](https://vite.new/preact)
+- [了解更多关于类组件的信息](/guide/v10/components)
+- [了解更多关于钩子的信息](/guide/v10/hooks)
+- [创建你自己的项目](https://vite.new/preact)
 
-> **我们渴望您的反馈！**
+> **我们想要你的反馈！**
 >
-> 您觉得您学会 Preact 了吗？中途卡在某个教程了吗？
+> 你觉得你学会了Preact吗？你有遇到困难吗？
 >
-> 我们欢迎您在[此讨论](https://github.com/preactjs/preact-www/discussions/815)中提出建议。
+> 欢迎在[这个讨论](https://github.com/preactjs/preact-www/discussions/815)中提供反馈。
 
 ```jsx:repl-initial
 import { render } from 'preact';
@@ -31,8 +31,8 @@ const getTodos = async () => {
     return JSON.parse(localStorage.todos)
   } catch (e) {
     return [
-      { id: 1, text: '学习 Preact', done: true },
-      { id: 2, text: '做个好玩的应用', done: false },
+      { id: 1, text: '学习Preact', done: true },
+      { id: 2, text: '制作一个很棒的应用', done: false },
     ]
   }
 }
@@ -46,17 +46,17 @@ function ToDos() {
     })
   }, [])
 
-  // 在待办事项更改时
+  // 每次todos更改时...
   useEffect(() => {
-    // 将列表保存进 localStorage：
+    // ...将列表保存到localStorage:
     localStorage.todos = JSON.stringify(todos)
-    // (试试刷新页面后能不能看到保存的待办事项！)
+    // (尝试重新加载页面以查看保存的待办事项！)
   }, [todos])
 
   function toggle(id) {
     setTodos(todos => {
       return todos.map(todo => {
-        // 将匹配的待办事项替换为完成值切换后的待办事项
+        // 用done状态已切换的版本替换匹配的待办事项
         if (todo.id === id) {
           todo = { ...todo, done: !todo.done }
         }
@@ -69,7 +69,7 @@ function ToDos() {
     e.preventDefault()
     const form = e.target
     const text = form.todo.value
-    // 为 `todos` 状态 setter 设置回调函数来就地更新值：
+    // 给`todos`状态设置器传递一个回调以就地更新其值:
     setTodos(todos => {
       const id = todos.length + 1
       const newTodo = { id, text, done: false }
@@ -91,7 +91,7 @@ function ToDos() {
         ))}
       </ul>
       <form onSubmit={addTodo}>
-        <input name="todo" placeholder="添加待办 [回车]" />
+        <input name="todo" placeholder="添加待办事项 [回车]" />
       </form>
     </div>
   )

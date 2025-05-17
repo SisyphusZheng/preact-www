@@ -1,6 +1,6 @@
 ---
-title: 选项钩子
-description: 'Preact 提供可附加到对比树差异过程的选项钩子。'
+title: Option Hooks
+description: 'Preact has several option hooks that allow you to attach callbacks to various stages of the diffing process.'
 ---
 
 # 选项钩子
