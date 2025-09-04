@@ -30,7 +30,7 @@ export default function Toc() {
 
 // Toc always starts at h2
 function listToTree(arr) {
-	if (arr.length == 0) return [];
+	if (!arr || arr.length == 0) return [];
 
 	// Prepare list
 	const list = arr.map(x => ({ ...x, level: x.level - 2, children: [] }));
